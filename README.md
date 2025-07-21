@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <img src="image/Methods.svg" width="1000" alt="DA-DMD method">
+  <img src="images/Methods.png" width="1000" alt="DA-DMD method">
   <br>
   <em>DA-DMD method.</em>
 </p>
