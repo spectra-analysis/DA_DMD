@@ -21,4 +21,16 @@ We used NumPy 1.26.4, PyDMD 2024.12.1 and PyTorch 2.2.1 in this work. The [`exam
 ## Citation
 **Authors:** Adithya Ashok Chalain Valapil, Carl Messerschmidt, Maha Shadaydeh, Michael Schmitt, Jürgen Popp, Joachim Denzler.
 
+**Publisher:** Proceedings of the German Conference on Pattern Recognition (GCPR) 2025
 
+**BibTeX:**
+
+```bibtex
+@inproceedings{valapil2025dadmd,
+  title     = {Deep Learning-Assisted Dynamic Mode Decomposition for NRB removal in CARS Spectroscopy},
+  author    = {Adithya Ashok {Chalain Valapil} and Carl Messerschmidt and Maha Shadaydeh and Michael Schmitt and Jürgen Popp and Joachim Denzler},
+  booktitle = {Proceedings of the German Conference on Pattern Recognition (GCPR)},
+  note = {Accepted},
+  year      = {2025}
+}
+```
