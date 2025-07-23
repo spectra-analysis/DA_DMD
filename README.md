@@ -16,10 +16,11 @@
 **Setup the project:**
 
 * **Step 1:** Clone this repository and create a virtual environment to isolate the dependencies.
-   
+
 ```bash
+# Clone repo with default name DA_DMD
 git clone https://github.com/spectra-analysis/DA_DMD.git
-cd your-repo-name
+cd DA_DMD
 
 # Create and activate a conda environment
 conda create -n "env_dadmd" python=3.10
