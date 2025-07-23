@@ -12,11 +12,33 @@
 </p>
 
 ## Usage
-We used NumPy 1.26.4, PyDMD 2024.12.1 and PyTorch 2.2.1 in this work. The [`example_dadmd.ipynb`](./example_dadmd.ipynb) notebook illustrates a training and testing example.
+
+**Setup the project:**
+
+* **Step 1:** Clone this repository and create a virtual environment to isolate the dependencies.
+   
+```bash
+git clone https://github.com/spectra-analysis/DA_DMD.git
+cd your-repo-name
+
+# Create and activate a conda environment
+conda create -n "env_dadmd" python=3.10
+conda activate env_dadmd
+```
+* **Step 2:** Install required packages as given in [`requirements.txt`](./requirements.txt), preferably with the same version.
+  
+```bash
+pip install -r requirements.txt
+```
+
+
+**Get started:** Understand the code usage with [`example_dadmd.ipynb`](./example_dadmd.ipynb) notebook that illustrates a training and testing example.
 
 **Training:** You may train a new DA-DMD model using [`train_dadmd.py`](./train_dadmd.py). You may use the given synthetic CARS-Raman data pair or use synthetic generator [1](https://github.com/crimson-project-eu/NRB_removal/blob/main/synthetic-data-generator.py), [2](https://github.com/Junjuri/LUT/blob/main/RSS_Advances_CNN_to_train_with_different_NRBs.py) or [3](https://github.com/Valensicv/Specnet/blob/master/Specnet_Published.ipynb).
 
 **Testing:** You may test the trained model using [`test_dadmd.py`](./test_dadmd.py). 
+
+>**Note:** We did our experiments on Ubuntu 22.04 with Python 3.10, PyTorch 2.2.1 and CUDA 12.1.
 
 ## Citation
 **Authors:** Adithya Ashok Chalain Valapil, Carl Messerschmidt, Maha Shadaydeh, Michael Schmitt, Jürgen Popp, Joachim Denzler.
