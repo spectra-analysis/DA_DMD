@@ -53,7 +53,6 @@ pip install -r requirements.txt
   title     = {Deep Learning-Assisted Dynamic Mode Decomposition for NRB removal in CARS Spectroscopy},
   author    = {Adithya Ashok {Chalain Valapil} and Carl Messerschmidt and Maha Shadaydeh and Michael Schmitt and Jürgen Popp and Joachim Denzler},
   booktitle = {Proceedings of the German Conference on Pattern Recognition (GCPR)},
-  note = {Accepted},
   year      = {2025}
 }
 ```
